@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.env
+*.DS_Store
+
+# Django static/media files (if generated)
+staticfiles/
+media/
+
+# Virtual environments
+venv/
+.venv/
+
+# VSCode settings
+.vscode/
+
+# Jupyter/Colab outputs
+.ipynb_checkpoints/
+
+# OSPanel/OpenServer
+*.bak
+*.tmp
+
+# Model fayllar (agar og'ir bo‘lsa, GitHub'ga yuklamaslik uchun)
+*.h5
+*.ckpt
+
+# My local secret settings
+.env
