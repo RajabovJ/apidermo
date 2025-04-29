@@ -29,6 +29,6 @@ venv/
 # Model fayllar (agar og'ir bo‘lsa, GitHub'ga yuklamaslik uchun)
 *.h5
 *.ckpt
-
+*.idea
 # My local secret settings
 .env
