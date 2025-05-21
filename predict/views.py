@@ -46,8 +46,6 @@ def predict_view(request):
             img_array = np.stack((img_array,) * 3, axis=-1)
 
         img_array = np.expand_dims(img_array, axis=0) / 255.0
-
-        # Bashorat qilish
         predictions = model.predict(img_array)
         predicted_class = np.argmax(predictions, axis=1)[0]
 
